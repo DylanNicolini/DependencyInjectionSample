@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost
+    Service="DependencyInjectionSample.OperationContracts.IEmployeeService, DependencyInjectionSample.OperationContracts"
+    Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" %>
